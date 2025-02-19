@@ -29,3 +29,15 @@
    - *Select Commit Type:* Choose from options such as Feature(~feat~), Fixbug(~fix~), etc.
    - *Enter Details*: Provide the scope, work-item-id, commit title, and an optional description.
    - *Confirm:* Once all fields are confirmed, confirm to commit.
+* Personal Project Notes
+- This project is a personal tool to streamline my Git commit workflow.
+- Experimenting with Bubble Tea, Huh, and Lip Gloss to learn mode about TUI development in Go.
+- The tool will envolve with new features as I learn more about effetive commit message structuring and interactive CLI design.
+* TODOs
+- [ ] Show git status: Display the current Git status before starting the commit process.
+- [ ] Intergration: Automate the actual Git commit process after confirming the commit message.
+- [ ] Customize Config: Implement a configuration file that let users override default settings.
+- [ ] Testing: Add unit tests.
+- [ ] Documentation: Improve documentation and add more examples in the README.
+* License
+This project is licensed under the MIT License.
