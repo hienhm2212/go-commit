@@ -1,6 +1,9 @@
 #+TITLE: GO COMMIT
 #+AUTHOR: HienHM
 #+EMAIL: blackcat22121996@gmail.com
+
+#+CAPTION: Commit gif
+[[./assets/commit.gif]]
 * Commit
 *Commit* is a Golang-based CLI tool designed for better commit, it provides a clean, terminal-based form to help you input all the necessary details for your Git commits.
 * Features
