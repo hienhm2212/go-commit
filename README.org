@@ -1,0 +1,28 @@
+#+TITLE: GO COMMIT
+#+AUTHOR: HienHM
+#+EMAIL: blackcat22121996@gmail.com
+* Commit
+*Commit* is a Golang-based CLI tool designed for better commit, it provides a clean, terminal-based form to help you input all the necessary details for your Git commits.
+* Features
+- *Interactive TUI:* Guides you through selecting commit-type, scope, work-item-id, commit title, and description.
+- *Pre-defined Commit Options:* Choose from commit types like Feature, Fixbug, Documentation, Style, Refactor, Performance, Tests, and Maintenance.
+* Installation
+** Prerequisites
+- [[https://golang.org/doc/install][Go]] 1.16 or later
+- Git
+** Build
+#+begin_src bash
+#+end_src
+* Usage
+1. Navigate to your Git repository:
+   #+begin_src bash
+     cd /path/to/your/git-repo
+   #+end_src
+2. Run the Commit tool:
+   #+begin_src bash
+     commit
+   #+end_src
+3. Follow the interactive prompts:
+   - *Select Commit Type:* Choose from options such as Feature(~feat~), Fixbug(~fix~), etc.
+   - *Enter Details*: Provide the scope, work-item-id, commit title, and an optional description.
+   - *Confirm:* Once all fields are confirmed, confirm to commit.
